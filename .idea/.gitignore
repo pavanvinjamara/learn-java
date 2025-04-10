@@ -1,0 +1,16 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+# IntelliJ project files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Exclude only specific `.idea` subfolders if you want to keep shared settings
+.idea/libraries/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
