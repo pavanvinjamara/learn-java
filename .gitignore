@@ -1,1 +1,11 @@
-./ideal
+# IntelliJ project files
+.idea/
+*.iml
+
+# Build output
+/out/
+/target/
+/build/
+
+# Logs
+*.log
