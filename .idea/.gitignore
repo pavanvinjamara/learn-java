@@ -3,7 +3,7 @@
 /workspace.xml
 
 # IntelliJ project files
-.idea/
+.idea
 *.iws
 *.iml
 *.ipr
