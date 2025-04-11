@@ -26,20 +26,7 @@ Background Processing
  The kit we download JDK( java development kit), It has one component JRE( Java Runtime Environment) and with this we have more other development tools
  JRE contains a component JVM (Java Virtual Machine) and some libraries.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+============================================================================================
 
  📝 Java Compilation - Theoretical Explanation
  Java is a high-level, object-oriented programming language that follows a two-step compilation and execution process:
@@ -72,3 +59,7 @@ Background Processing
  Executes the machine code on the host operating system.
 
  This allows the same Java program to run on different platforms, making Java a platform-independent language.
+
+ ✅ Conclusion
+ The Java compilation process converts human-readable source code into platform-independent bytecode using the javac compiler.
+  The JVM then executes this bytecode, enabling Java programs to be run on any system that has a compatible JVM installed.
