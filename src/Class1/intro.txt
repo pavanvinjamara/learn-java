@@ -20,3 +20,55 @@ How java code runs
     To run the java code, it goes into two processing steps
     i) Compliation
     ii) Execution
+
+Background Processing
+
+ The kit we download JDK( java development kit), It has one component JRE( Java Runtime Environment) and with this we have more other development tools
+ JRE contains a component JVM (Java Virtual Machine) and some libraries.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 📝 Java Compilation - Theoretical Explanation
+ Java is a high-level, object-oriented programming language that follows a two-step compilation and execution process:
+
+ Compilation by the Java Compiler (javac)
+
+ Execution by the Java Virtual Machine (JVM)
+
+ 🔹 1. Writing the Source Code
+ The programmer writes the Java program in a plain text file with the .java extension. This file contains source code, which follows the syntax and rules of the Java language.
+
+ 🔹 2. Compilation
+ The Java compiler (javac) is used to compile the .java file. During this step:
+
+ The compiler checks for syntax errors.
+
+ If the code is error-free, the compiler translates the source code into an intermediate form known as bytecode.
+
+ The bytecode is stored in a .class file.
+
+ Bytecode is a set of instructions that can be executed by the Java Virtual Machine (JVM), and it is platform-independent.
+
+🔹 3. Execution
+ The .class file (bytecode) is executed by the Java Virtual Machine (JVM). The JVM:
+
+ Loads the bytecode into memory.
+
+ Interprets or compiles the bytecode into machine code using a technique called Just-In-Time (JIT) Compilation.
+
+ Executes the machine code on the host operating system.
+
+ This allows the same Java program to run on different platforms, making Java a platform-independent language.
