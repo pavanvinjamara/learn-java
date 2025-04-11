@@ -1,0 +1,22 @@
+Introduction to java
+
+    Step 1
+     =>First we create a class with a name
+        => To create it we use (class) keyword and curly braces {}
+        => Name of file is same has class Name
+
+    Step 2
+      => Inside the class we create a function
+        => which is (public static void main(string args[]) and curly braces {}
+
+    Step 3
+        => Inside the function Using System.out.printLn you can print the output.
+
+    Step 4
+        => Run the code, check the output
+
+How java code runs
+
+    To run the java code, it goes into two processing steps
+    i) Compliation
+    ii) Execution
