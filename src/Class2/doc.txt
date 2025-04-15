@@ -1,4 +1,7 @@
 Output
 
-    => we can show output using System.out.println();
+    => we can show output using System.out.println('output');
+    => Above line is statement, every statement end with semicolon.
+
+
 
