@@ -9,7 +9,7 @@ public class LearnVariable {
 
         // Variable
         int a = 1;
-        String name = "pavan kumar";
+        String name = "pavankumar";
         double price = 20.25;
 
         // Data Type
