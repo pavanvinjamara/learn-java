@@ -1,5 +1,6 @@
 package src.Class2;
-import java.util.Scanner;// which imports all utils;
+import java.util.*;
+//import java.util.Scanner;// which imports all utils;
 
 public class LearnInput {
     public static void main(String[] args){
@@ -22,8 +23,9 @@ public class LearnInput {
 //        The name of the Scanner object. You can use any name, but sc is short for “scanner”.
         // "Create a new Scanner object that reads from the keyboard and name it sc."
         String name = sc.next();
-        System.out.println(name);
 
+        // Clear the leftover newline
+        sc.nextLine();
 //        sc.next():
 //        This reads the next word (token) typed by the user. It stops reading when the user hits the space or Enter key.
 //
@@ -43,14 +45,17 @@ public class LearnInput {
         // for String next() and nextLine();
         // for int nextInt();
     String user = sc.nextLine();
-    System.out.println(user);
-//    int age = sc.nextInt();
-//        double height = sc.nextDouble();
-//
-//        // Read boolean (true/false)
+
+    int age = sc.nextInt();
+    double height = sc.nextDouble();
+//         Read boolean (true/false)
 //        System.out.print("Are you a student? (true/false): ");
-//        boolean isStudent = sc.nextBoolean();
-//        System.out.println(user);
+    boolean isStudent = sc.nextBoolean();
+        System.out.println(name);
+    System.out.println(user);
+    System.out.println(age);
+    System.out.println(height);
+    System.out.println(isStudent);
 
     }
 }
