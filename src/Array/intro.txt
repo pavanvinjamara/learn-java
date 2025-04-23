@@ -13,3 +13,35 @@ Fast Access: O(1) time for accessing by index.
 Simple & Efficient for storing and manipulating collections of data.
 
 Used as the base for many advanced data structures.
+
+
+Declaring and Creating Arrays in Java
+int[] arr = new int[5];           // Creates [0, 0, 0, 0, 0]
+String[] names = new String[3];  // Creates [null, null, null]
+
+int[] nums = {1, 2, 3, 4};       // Direct initialization
+
+🔸 Accessing & Modifying Elements
+
+System.out.println(nums[2]); // Access → prints 3
+
+nums[2] = 10;                // Modify → changes nums[2] from 3 to 10
+
+🔸 Traversing an Array
+✅ Using for loop
+for (int i = 0; i < nums.length; i++) {
+    System.out.println(nums[i]);
+}
+
+✅ Using for-each loop
+for (int num : nums) {
+    System.out.println(num);
+}
+📌 Time Complexities of Common Operations
+
+Operation	Time Complexity
+Access by index	O(1)
+Insert at end	O(1) (if space)
+Insert at index	O(n)
+Delete at index	O(n)
+Search	O(n) (linear), O(log n) (binary)
