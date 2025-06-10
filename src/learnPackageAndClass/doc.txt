@@ -1,0 +1,17 @@
+--------------------------- *  PACKAGE  * ------------------------
+
+1. What is a package ?
+ => Package is a conatiner which can segregate the files in the java project
+
+2. Understand the need for a package in project ?
+3. Different ways to create a package ?
+
+
+--------------------------- *  CLASS  * ----------------------------
+1. What is class ?
+
+2. How do we create a class ?
+
+3. What are the different options that we have creating a class ?
+
+4. What are the members of a class ?
