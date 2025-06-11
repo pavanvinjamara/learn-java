@@ -15,3 +15,34 @@
 3. What are the different options that we have creating a class ?
 
 4. What are the members of a class ?
+
+--------------------------- *  DATA TYPE  * ----------------------------
+1. What is a data type ?
+   => A data type is a classification of data which tells the compiler or interpreter how the programmer intends to use the data
+
+2. Categorisation of data types ?
+    => Two types
+       1. Primitive
+            * Number(Call has Numeric)
+                --> Integer Type
+                        // Wrapper Class ==> Outer layer of datatype to perform operation
+                                            --- (check memory units) ---
+                        ~ Byte     --> byte        -
+                        ~ Short    --> short
+                        ~ Integer  --> int
+                        ~ Long     --> long
+                --> Decimal Type
+                        ~ Float    --> float
+                        ~ Double   --> double
+            * Boolean
+                                   --> boolean
+            * Character
+                                   --> char
+       2. Non-Primitive
+
+3. What are the Primitive data types available in Java ?
+
+4. What is the default value & size of each primitive data type ?
+
+5. What are the Non-Primitive data types in Java ?
+
