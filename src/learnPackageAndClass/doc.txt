@@ -25,24 +25,51 @@
        1. Primitive
             * Number(Call has Numeric)
                 --> Integer Type
-                        // Wrapper Class ==> Outer layer of datatype to perform operation
+                        // Wrapper Class ==> Outer layer of datatype to perform operation (Ex :- Byte, FLoat, Long etc).
                                             --- (check memory units) ---
-                        ~ Byte     --> byte        -
-                        ~ Short    --> short
-                        ~ Integer  --> int
-                        ~ Long     --> long
+                        ~ Byte     --> byte        -      1 byte
+                        ~ Short    --> short       -      2 bytes
+                        ~ Integer  --> int         -      4 bytes
+                        ~ Long     --> long        -      8 bytes
                 --> Decimal Type
-                        ~ Float    --> float
-                        ~ Double   --> double
+                        ~ Float    --> float       -      4 bytes
+                        ~ Double   --> double      -      8 bytes
+
             * Boolean
-                                   --> boolean
+                                   --> boolean     -      1 bit
+
             * Character
-                                   --> char
+                                   --> char        -      2 bytes
        2. Non-Primitive
+            => Non-primitive which is not a predefined datatype and which don't have predefined size.
+            => Non-primitive data types (also called reference types) in Java are types that refer to objects and do not store the actual value, but instead store the memory address (reference) where the object is located.
+            * Arrays
+
+            * Collections
+
+            * Interface
+
+            * Class
+
+      ******************** Computer Memory units ***********************
+      ===> bit = Binary digit
+      ===> 1 Nibble = 4 bits
+      ===> 1 Byte = 8 bits
+      ===> 1 Kilo byte (KB) = 1024 bytes
+      ===> 1 Mega byte (MB) = 1024 Kilo bytes
+      ===> 1 Giga byte (GB) = 1024 Mega bytes
+      ===> 1 Tera byte (TB) = 1024 Giga bytes
+      ===> 1 Peta byte (PB) = 1024 Tera bytes
+
+
+   ___________________________ **************** ___________________
 
 3. What are the Primitive data types available in Java ?
 
 4. What is the default value & size of each primitive data type ?
 
 5. What are the Non-Primitive data types in Java ?
+
+
+
 
