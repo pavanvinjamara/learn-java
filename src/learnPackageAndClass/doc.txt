@@ -71,5 +71,46 @@
 5. What are the Non-Primitive data types in Java ?
 
 
+--------------------------- *  VARIABLE  * ----------------------------
 
+1. What is a variable ?
+    => A variable is a container that holds data that can be changed during the execution of a program. A variable definition (or declaration) tells the compiler:
 
+2. Different type of variables in java ?
+    => In Java, variables are categorized based on where they are declared and how they behave.
+    There are three main types of variables:
+
+        ------> GLOBAL VARIABLES
+        * Instance Variables (Non-static fields)
+            - Declared inside a class, but outside any method.
+
+            - Belong to each object (instance) of the class.
+
+            - Get default values if not initialized (e.g., 0, null, false).
+
+        * Static Variables (Class variables)
+            - Declared with the static keyword.
+
+            - Belong to the class rather than any object.
+
+            - Shared by all instances of the class.
+
+        ----------> LOCAL VARIABLES
+        * Local Variables
+            - Declared inside a method, constructor, or block.
+
+            - Only accessible within that method or block.
+
+            - Not assigned default values — must be initialized before use.
+        * Parameters
+            - A parameter is a variable used to receive values (called arguments) when a method is called.
+              It acts like an input to the method.
+
+            - Term	        Description
+
+              Parameter	    The variable defined in the method declaration
+              Argument	    The actual value passed when calling the method
+
+3. How to access the variable data/value ?
+
+4. Naming conventions for variable ?

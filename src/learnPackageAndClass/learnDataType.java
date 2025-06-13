@@ -27,7 +27,7 @@ public class learnDataType {
             // * EX:- in byte you can store up to 127 number 128 can store in int not in byte like that all datatypes
 
         // ---------- *  CREATING VARIABLES WITH DIFFERENT DATATYPES  * ---------------
-            // datatype variableName assigning operator value ;
+            // datatype variableName using assigning operator value ;
             byte b = 50;
             short s = 250;
             int i = 2145345443;
