@@ -1,6 +1,7 @@
 package src.learnPackageAndClass;
 
 public class learnVariable {
+
     public static void main(String[] args) {
         // Syntax
         // DataType variableName = variableValue;
@@ -22,6 +23,8 @@ public class learnVariable {
         // Re-assigning :- make overides the previous value with new one.
             age = 26;
          System.out.println(age);
+
+         // next - file instance varibale
 
     }
 }
