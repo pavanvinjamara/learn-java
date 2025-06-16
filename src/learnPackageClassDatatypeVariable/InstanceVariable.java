@@ -1,4 +1,4 @@
-package src.learnPackageAndClass;
+package src.learnPackageClassDatatypeVariable;
 
 public class InstanceVariable {
     // Instance variable

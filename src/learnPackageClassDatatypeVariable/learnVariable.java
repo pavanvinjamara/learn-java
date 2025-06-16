@@ -1,4 +1,4 @@
-package src.learnPackageAndClass;
+package src.learnPackageClassDatatypeVariable;
 
 public class learnVariable {
 
@@ -14,6 +14,7 @@ public class learnVariable {
             name = "Pavan Kumar";   // Initialization
 
         // Ex:- 2  ---> If you know the value when you declare below
+
             //    Declaration      assigning     Initialization
             //                     operator
                     int age            =              25;

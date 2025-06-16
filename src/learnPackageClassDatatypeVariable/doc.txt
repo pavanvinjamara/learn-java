@@ -114,3 +114,8 @@
 3. How to access the variable data/value ?
 
 4. Naming conventions for variable ?
+    => Variables are case-sensitive
+    => for single word use lowerCase,if you have multiple words use camelCase(firstSecond).
+    => We cannot use keywords has variable names.
+    => we can use only this special characters ( _, $ )in variable name in java. oracle recommend don't use at starting place.
+    => UnderScore is used for const value. (float MATH_PIE = 3.14;)

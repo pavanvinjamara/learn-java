@@ -1,4 +1,4 @@
-package src.learnPackageAndClass;
+package src.learnPackageClassDatatypeVariable;
 
 public class staticLocalVariable {
     static int rollNumber= 10243;

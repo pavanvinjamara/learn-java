@@ -1,4 +1,4 @@
-package src.learnPackageAndClass;
+package src.learnPackageClassDatatypeVariable;
 
 public class learnDataType {
     //To know the Default value of datatype
@@ -44,7 +44,7 @@ public class learnDataType {
                 // * Integer            -  0
                 // * Boolean             -  true
                 // * Char                -  Space
-                // * Non-Primitive       - null
+                // * Non-Primitive       -  null
 
     }
 }

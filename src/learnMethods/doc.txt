@@ -1,0 +1,11 @@
+--------------------------- *  METHODS  * ------------------------
+
+1. What is a method ?
+    => A method is a block of code or collection of statements grouped together to perform a certain task or operation
+    and return the result to the caller if applicable.
+
+2. How do we create a method ?
+
+3. What are the parameters ?
+
+4. What is the return type ?

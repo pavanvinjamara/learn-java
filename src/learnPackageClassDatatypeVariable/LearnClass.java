@@ -1,4 +1,4 @@
-package src.learnPackageAndClass;
+package src.learnPackageClassDatatypeVariable;
 
 // access modifer ( class) keyword className
 public class LearnClass {
