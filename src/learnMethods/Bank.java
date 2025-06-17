@@ -9,6 +9,18 @@ public class Bank {
         System.out.println("Hello Pavan, welcome to hello world banking app");
     }
 
+    public void deposit(){
+
+    }
+
+    public void withdrawal(){
+
+    }
+
+    public void getCurrentBalance(){
+
+    }
+
     public static void main(String[] args) {
         // call the method to run the method
         greetingCustomer();
