@@ -3,6 +3,18 @@
 1. What is a method ?
     => A method is a block of code or collection of statements grouped together to perform a certain task or operation
     and return the result to the caller if applicable.
+    => Method can be created in class.Try to maintain a relation between class and method
+    => Syntax
+                               --                                    --
+        - accessModifer staticOrNonStatic returnType methodName( parameters )
+        {
+            // Method Body
+            // throws ExceptionList(--) means if they are not present not shows any error
+
+               --
+            return value;
+        }
+
 
 2. How do we create a method ?
 
