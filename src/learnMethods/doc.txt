@@ -21,3 +21,9 @@
 3. What are the parameters ?
 
 4. What is the return type ?
+
+Note : - void is not a datatype it is a reserved keyword.
+
+=============== * Missing topics * ==============
+ ---- Method overloading
+ ---- Method overriding
