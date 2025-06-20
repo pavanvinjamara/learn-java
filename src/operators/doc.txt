@@ -22,7 +22,29 @@
                     --> value-- Post-decrement
 
          - Relational Operator
-         - Conditional Operators
-         - Assignment Operators
+               Operation         -         Symbol
+            -- Equal to                     (==)
+            -- Not Equal to                 (!=)
+            -- Greater than                 (> )
+            -- Lesser than                  (< )
+            -- Greater than Equal to        (>=)
+            --  Lesser than Equal to        (<=)
 
-3. Perform the operations using the oprators ?
+         - Conditional Operators
+              Operation         -         Symbol
+           -- Conditional AND              (&&)
+           -- Conditional OR               (||)
+
+         - Assignment Operators
+              Operation               -    Symbol
+           -- Equal to                     (= )
+           -- Plus Equal to                (+=)
+           -- Minus Equal to               (-=)
+           -- Multiply Equal to            (*=)
+           -- Divide than Equal to         (/=)
+           -- Remind than Equal to         (%=)
+           we have more left shift and right shift also
+
+3. Perform the operations using the operators ?
+
+// check for more in javaTpoint
