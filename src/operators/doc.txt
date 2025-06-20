@@ -1,5 +1,28 @@
 1. what is an operator ?
+    => Operator is a symbol that perform operations on variables and values.
 
 2. Different type of operation in java ?
+    => Mostly used operator
+         - Arithmetic Operators
+                Operation         -  Symbol
+             -- Addition              (+)
+             -- Subtraction           (-)
+             -- Multiplication        (*)
+             -- Dividion              (/)
+             -- Modulus               (%)
+         - Unary Operators
+             -- Increment (++)
+             -- Decrement (--)
+                In this we two pre and post
+                   -- Pre
+                     --> ++value Pre-increment
+                     --> --value Pre-decrement
+                   -- Post
+                    --> value++ Post-increment
+                    --> value-- Post-decrement
+
+         - Relational Operator
+         - Conditional Operators
+         - Assignment Operators
 
 3. Perform the operations using the oprators ?
