@@ -21,5 +21,6 @@ public class assignmentOperator {
         System.out.println(i); // 10
         i %= 5;
         System.out.println(i); // 0
+
     }
 }
