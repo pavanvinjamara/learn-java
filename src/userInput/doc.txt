@@ -1,0 +1,26 @@
+🔢 Numeric Data Types
+| Data Type    | Method             | Description                            |
+| ------------ | ------------------ | -------------------------------------- |
+| `byte`       | `nextByte()`       | Reads the next token as a `byte`       |
+| `short`      | `nextShort()`      | Reads the next token as a `short`      |
+| `int`        | `nextInt()`        | Reads the next token as an `int`       |
+| `long`       | `nextLong()`       | Reads the next token as a `long`       |
+| `float`      | `nextFloat()`      | Reads the next token as a `float`      |
+| `double`     | `nextDouble()`     | Reads the next token as a `double`     |
+| `BigInteger` | `nextBigInteger()` | Reads the next token as a `BigInteger` |
+| `BigDecimal` | `nextBigDecimal()` | Reads the next token as a `BigDecimal` |
+
+🔠 String and Character
+| Method                  | Description                                        |
+| ----------------------- | -------------------------------------------------- |
+| `next()`                | Reads the next complete token (word, until space)  |
+| `nextLine()`            | Reads the entire line (until newline `\n`)         |
+| `next(Pattern pattern)` | Reads the next token that matches a regex pattern  |
+| `next(String pattern)`  | Reads the next token that matches a string pattern |
+
+| `next().chartAt(0)`     | Java Scanner has no nextChar() method. To get a char |
+
+🔘 Boolean
+| Method          | Description                                           |
+| --------------- | ----------------------------------------------------- |
+| `nextBoolean()` | Reads the next token as a boolean (`true` or `false`) |
