@@ -1,0 +1,28 @@
+1. What is a decision-making statement ?
+    => Decision-making statements allow you to make a decision, based upon the result of a condition
+
+2. Different types of decision-making statement in java ?
+    => four type of statement
+           * if
+           *else-if
+           *else
+           *switch
+
+           Syntax:- if, else if, else
+
+               if(condition){
+
+               }
+               else if(condition){
+
+               }
+               else{
+
+               }
+
+
+3. Syntax for if , if-else, nested if statements in java ?
+
+4. Hand on experience with if, if-else, nested if statement in java ?
+
+
