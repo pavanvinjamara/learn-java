@@ -25,4 +25,22 @@
 
 4. Hand on experience with if, if-else, nested if statement in java ?
 
+5. Syntax for Switch statement in java ?
+    => Used when comparing one variable to many constant values
+       in directly checking Best for checking equality: x == 1, x == 2, etc.
+    => Syntax:-
+            switch(key){
+                case value:
+                    //statement
+                    break;
+
+                default:
+                    // statement
+                    break;
+            }
+
+6. Hand on experience with switch statement in java ?
+
+7. what is the break keyword and why do we use it ?
+
 
