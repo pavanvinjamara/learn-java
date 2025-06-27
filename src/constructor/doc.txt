@@ -1,0 +1,38 @@
+1. What is a constructor ?
+    => A constructor is a block of codes similar to the method. It is called when an instance (object) of the class is created.
+
+2. What are the thumb rules for creating a constructor ?
+
+3. What is a default constructor or implicit constructor ?
+
+4. What is an explicit constructor ?
+
+5. Different types of explicit constructors ?
+
+
+* Why we use constructor in java & why we create object in java ?
+    => If we want to allocate memory to a class , to access the members of a class we need to allocate a memory. so we create object for this.
+     - Allocating memory to class means allocating memory to variable & methods in the class.
+     - To do this java perform some operations, this operations can perform by the constructor
+     - If we did not create any constructor.java creates the default constructor. This is called default constructor or implicit constructor.
+     - default constructor will be always public, it should be always class name
+     - It is like method but no return type  only for default contructor.
+     - If you add the constructor using below code then it is called explicit constructor.
+     - Default constructor is always parameter less constructor
+     - In Explicit constructor u can mention the both
+     - Java differentiate constructor using parameters
+     - If you can add Explicit constructor of any type then your there is no default constructor.Then we need tp add parameterless explicit constructor.
+     - Syntax for default constructor
+        ==> public ClassName(){
+
+            }
+            parameterized constructor
+        ==> public ClassName(parameters){
+
+            }
+
+     - In class u can create n number of constructor with same ClassName but to differentiate we use parameters. otherwise it will be a duplicate constructor.
+     - We can create constructor only using  public, private & protected.
+     - Constructor helps in memory management.
+
+
