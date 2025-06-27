@@ -1,0 +1,18 @@
+1. What is an object ?
+    => Which allocates memory to a class | Object is an instance of a class
+        - Class is a blueprint which contains variables and methods, but till now memory is not allocated to them until they are static
+           to allow memory to class so we can access them we use object.
+        - You can create n number of objects to a single class.
+
+
+2. How do we create an object ?
+    => Using constructors with classname & ClassName we can create
+        Syntax :-
+
+        ClassName variableNameForObject = newKeyWord ClassName();
+        --> ClassName() is the constructor.
+
+3. What an object can contain in it ?
+    => Object contains variables and methods
+
+4. How can we call the methods or variables from within the class or outside the class ?
