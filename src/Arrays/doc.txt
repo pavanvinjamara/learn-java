@@ -1,0 +1,36 @@
+1. What is an Array ? Why do we need an Array ?
+        Note: Before going to array ref variable and datatype
+
+        - When object creation is not there it is primitive
+        - When Object creation is there it is non-primitive
+
+        - In primitive there is no need to create object.
+
+        - Non-primitive datatypes are
+            * Class
+            * Arrays
+            * Collections
+
+        - To store multiple value we need an array.
+        - In primitive we can store only one value.
+                int rollNumber = 101;
+                int rollNumbers = 101, 102, 103; // we cannot
+
+      **> An array is a container object that holds a fixed number of values of a single type.
+            - Before creating array u need to mention which type data you are going to store.(int, char,boolean etc)
+            - Mention the length of data , Mention how many values we are going to store.
+
+
+
+2. Different types of arrays in java ?
+    => Two type of Arrays
+        - Single Dimensional Array
+        - Multi Dimensional Array
+            * Two Dimensional Array
+            *
+
+3. What is a single dimensional array ?
+
+4. Different ways of initializing single-dimensional array ?
+
+5. What are default values of array elements ?
