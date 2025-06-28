@@ -1,0 +1,29 @@
+1. What is a looping statement ?
+    => Looping statements are the statements that execute one or more statement / operation  repeatedly several no of times until condition breaks or satisfy.
+
+2. Different types of looping statement in java ?
+    => Four types of looping statements
+        - while
+            ** Syntax :-
+                => while ( condition) {
+                        // statements
+                    }
+        - do-while
+            - it executes at least one time
+            ** Syntax :-
+                => do {
+                        //statements
+                    }
+                    while ( condition ) ;
+        - for
+            ** Syntax :-
+                => for(initialisation; condition; updation){
+                    // statements
+                }
+        - foreach
+
+3. Syntax for while, do-while & for  statements in java ?
+
+4. Hand on experience with while, do-while & for statement in java ?
+
+
