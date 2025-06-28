@@ -1,0 +1,15 @@
+1. What is a comment ?
+    => It is a special statement which are not complies and executes
+        - Comment is a statement that will not be executed by the compiler and interpreter. It can be used to provide information or explanation about the variable, method, class or any statement.
+
+2. Different type of comments in java ?
+    => Three types of comments
+          - Single line comments ( // )
+          - Multi line comments  (/* start point            end point*/)
+          - Documentation Comments( /** start point         end point*/)
+
+          refer next file Java_Comments_and_Javadoc_Notes.txt
+
+3. Hand on experience with all type of comments ?
+
+4. Shortcut keys for commenting the code in Intellij / Eclipse ?

@@ -1,0 +1,119 @@
+
+Java Comments and Documentation Notes
+=====================================
+
+1. Types of Comments in Java
+----------------------------
+
+1.1 Single-line Comment
+// This is a single-line comment
+
+1.2 Multi-line Comment
+/*
+ This is a multi-line comment.
+ Used to comment out multiple lines.
+*/
+
+1.3 Javadoc Comment
+/**
+ * This is a Javadoc comment.
+ * Used to generate documentation using the javadoc tool.
+ */
+
+2. IntelliJ Shortcuts
+---------------------
+
+Toggle single-line comment:
+- Windows/Linux: Ctrl + /
+- macOS: Cmd + /
+
+Toggle multi-line comment:
+- Windows/Linux: Ctrl + Shift + / (comment), Ctrl + Shift + \ (uncomment)
+- macOS: Cmd + Shift + / (comment), Cmd + Shift + \ (uncomment)
+
+Generate Javadoc:
+- Type /** above a method and press Enter
+
+3. Common Javadoc Tags
+----------------------
+
+Javadoc comments use special tags for better documentation.
+
+- @author
+  Description: Specifies the author of the code.
+  Example:
+  @author John
+
+- @version
+  Description: Specifies the version of the class or method.
+  Example:
+  @version 1.0
+
+- @param
+  Description: Documents a method parameter. Used once per parameter.
+  Example:
+  @param x the first number to add
+
+- @return
+  Description: Describes what the method returns.
+  Example:
+  @return the sum of x and y
+
+- @throws or @exception
+  Description: Documents an exception thrown by the method.
+  Example:
+  @throws IOException if an I/O error occurs
+
+- @see
+  Description: Refers to another class or method.
+  Example:
+  @see java.util.List
+
+- @since
+  Description: States when the feature was added.
+  Example:
+  @since 1.5
+
+- @deprecated
+  Description: Marks the method/class as deprecated.
+  Example:
+  @deprecated Use newMethod() instead.
+
+- @link
+  Description: Adds an inline link to another element.
+  Example:
+  {@link java.lang.String}
+
+- @code
+  Description: Formats text as code inline.
+  Example:
+  {@code int x = 10;}
+
+- @docRoot
+  Description: Refers to the root of the generated documentation.
+
+- @inheritDoc
+  Description: Inherits documentation from the superclass method.
+
+- @literal
+  Description: Displays special characters as literals.
+
+4. Example with All Tags
+------------------------
+
+/**
+ * Performs addition of two integers.
+ *
+ * @author Pavan
+ * @version 1.0
+ * @param a the first integer
+ * @param b the second integer
+ * @return the sum of a and b
+ * @throws IllegalArgumentException if a or b is null
+ * @see java.lang.Math
+ * @since 2025
+ * @deprecated Use addNumbers(int a, int b) instead.
+ */
+public int add(int a, int b) {
+    return a + b;
+}
