@@ -5,7 +5,7 @@ public class SingleDArray {
         //  Normally we declare variable
             int i ;
 
-        //  To Delcare an array
+        //  To Declare an array
         //  datatype variableName[] or datatype[] variableName;
         //  [] square bracket are denoting array
         //  we can use class has datatype
@@ -25,7 +25,7 @@ public class SingleDArray {
         // another way
             int[] l = new int[]{ 3, 5, 6, 8, 0};
             // Use of initialization is
-            int[] arr0 ;
+            int[] arr0;
             // arr0 = { 5, 8, 5, 9, 0 }; this cannot be done  in this place we use above initialization.
             arr0 = new int[]{ 2, 3, 7, 10 };
 

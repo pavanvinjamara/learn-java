@@ -34,3 +34,11 @@
 4. Different ways of initializing single-dimensional array ?
 
 5. What are default values of array elements ?
+
+6. What are two-dimensional & jagged arrays ?
+    => Every row contains same number of columns, It is called Two dimensional array.
+    => Every row conatins different number of columns called Jagged Array.
+
+7. Different ways of initializing two-dimensional arrays ?
+
+8. Different ways of initializing jagged arrays ?
