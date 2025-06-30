@@ -27,7 +27,7 @@
         - Single Dimensional Array
         - Multi Dimensional Array
             * Two Dimensional Array
-            *
+            * Jagged Array
 
 3. What is a single dimensional array ?
 
