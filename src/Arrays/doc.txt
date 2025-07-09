@@ -37,7 +37,7 @@
 
 6. What are two-dimensional & jagged arrays ?
     => Every row contains same number of columns, It is called Two dimensional array.
-    => Every row conatins different number of columns called Jagged Array.
+    => Every row contains different number of columns called Jagged Array.
 
 7. Different ways of initializing two-dimensional arrays ?
 
