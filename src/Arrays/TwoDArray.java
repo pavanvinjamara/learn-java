@@ -54,5 +54,34 @@ public class TwoDArray {
         arr[0] = new int[] {1,2};
         arr[1] = new int[] {3, 4};
         // arr[1] = {3,4}; this syntax will not work same like arr3 example
+
+        // Jagged Array
+        // In jagged array columns should be empty because it is not a fixed no of columns.
+        // datatype[][] variableName = new(keyword) datatype[rowSize][];
+        int[][] jag = new int[4][]; // It shows imagination is like [null,null,null]
+        jag[0] = new int[2];
+        jag[1] = new int[5];
+        jag[2] = new int[3];
+
+        // another assign
+        jag[3] = new int[] {5};
+        // imagination [ [0,0],[0,0,0,0,0], [0,0,0] ]
+
+        // Store value same like 2D Array
+
+        arr[0][0] = 1;
+        arr[0][1] = 2;
+
+        arr[1][2] = 3;
+
+        int[][] jag1 = {
+                {1},
+                {2,5,6},
+                {7,0,5,3}
+        };
+
+        // hydrating mean printing will be same in jagged and multi-D Array
+        // Using index or using for you can hydrate / print the element values
+
     }
 }
