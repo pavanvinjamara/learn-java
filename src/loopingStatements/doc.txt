@@ -21,6 +21,11 @@
                     // statements
                 }
         - foreach
+            ** Syntax :-
+                => for(dataType variableName: arrayOrCollection){
+                    //statements
+                }
+
 
 3. Syntax for while, do-while & for  statements in java ?
 

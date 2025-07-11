@@ -1,4 +1,4 @@
-package src.whileDowhileForLoops;
+package src.loopingStatements;
 
 public class DoWhile {
     public static void main(String[] args) {
