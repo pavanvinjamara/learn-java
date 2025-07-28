@@ -1,0 +1,17 @@
+Agenda
+
+1. What is a String?
+    => String is a sequence of characters (text means which includes all characters numerics etc.) and it is a class in java but considered as a literal because of its unique behaviour.
+        Unique behaviour means
+            normal we declare a variable using datatype using keyword like int, float etc.
+            But string is not a datatype it is a class we use like variable declaration
+            - String is a non-primitive datatype to say in java we say literal
+            - We need string to store text or handle text
+2. Different ways to create a string?
+    => We can create string two types
+        - String s1 = "hello";
+        - String s2 = new String("hello");
+
+3. Methods available for string?
+
+4. Comparison of multiple strings?
