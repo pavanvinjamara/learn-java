@@ -24,8 +24,8 @@ public class StringIntro {
         String s2 = new String("hello");
         String s3 = "hello"; // this refers the same address 101ef
 
-        System.out.println(s1 == s2); // gives false
-        System.out.println(s2 == s3); // gives false
+        System.out.println( s1 == s2 ); // gives false
+        System.out.println( s2 == s3 ); // gives false
         // They are not equal
         // s1 creating strings using first methods stores in a separate location called "string pool"
         // java handles this type string using string pool
@@ -34,6 +34,26 @@ public class StringIntro {
 
         // s2 == s3 because in string pool it will not create multiple instincts when it is creating memory for new string
         // It will check same string is there are not in string if it is there it will not create it usings same location for that variable also
+
+        // important
+        // if create a String using literal means String s1 = "hello". It Stores in string pool memory.
+        // if we use new keyword and create an object. It stores in Heap Memory.
+
+        // In string pool memory allocation is brick by brick
+        // In Heap memory creates randomly at anywhere in heap memory
+
+        // If create
+        String s4 = new String("heloo");
+        String s5 = new String("heloo");
+        System.out.println(s4 == s5);// false
+        // Because It creates two different object at different memory location so that why reference became different gives us false.
+        // If use double equal to operator(==) It compares address
+        // To compare data types of Object or string pool
+        // we use methods called (equals) method
+        // Syntax :
+        // variableName.equal(variableName);
+        System.out.println(s4.equals(s5)); // true . It verify data is equal or not
+
 
     }
 }
