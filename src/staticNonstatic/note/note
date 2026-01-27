@@ -1,0 +1,31 @@
+1. What is static in java ?
+    In java to execute anything, it should allocated with memory.
+    => Here, To execute main method it should allocated with memory.
+       To allocate memory we need to create object
+       To create object we need to create class again for that we need memory.
+       we fell into end less loop, To over come this java given an keyword static by using this we can create memory without creation of an object.
+
+1. What is static in Java?
+
+    In Java, members marked as static belong to the class, not to an individual object.
+
+    Normally, to access a method or variable, an object of the class must be created.
+    However, the main method must run before any object is created.
+
+    If main were not static, Java would need an object to call it.
+    To create that object, the class would need to be loaded first, which would again require executing code — leading to a logical dependency problem.
+
+    To avoid this, Java provides the static keyword.
+
+    A static method:
+
+    Is loaded into memory when the class is loaded
+
+    Can be accessed without creating an object
+
+    Is shared by all objects of the class
+
+    That’s why the main method is declared as static.
+
+
+
