@@ -27,5 +27,29 @@
 
     That’s why the main method is declared as static.
 
+   Note:- one more important feature is SHARED MEMORY.
+
+2.How java allocate memory ?
+    In JVM .java file compiles and convert into class file and it goes through cretain process.
+     => class Loader
+            * In this it goes through some steps like intiliazation , linking etc
+     => Memory Management
+     => Execution engine
+
+     If our execution engine need to work
+        before that our memory need to be created.
+
+     In Class Loader it will identify the static fills and it will allocate memory.
+
+     In our operating system memory, A JVM memory has been created in that we have some section to manage the memory.
+      1.Method Area 2.Heap Memory 3.Stack Area 4.PC Registers 5.Native Method Stack
+
+  when class is load in class loader it identify the static variable in a class and per class it creates a block in method Area in
+  that block it store the static variable.
+
+  But when we create object for every object it creates a block in heap memory.
+  After memory allocation our execution engine access the variable from specific area and
+  uses it.
+
 
 
