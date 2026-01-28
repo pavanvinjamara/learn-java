@@ -1,0 +1,22 @@
+Agenda
+ * What is OOPs ?
+    => OOp(Object oriented programming) is a programming paradigm based on the concept of "objects".
+	=> check image to know paradigm and why we are using oops
+
+ * what are the principles of OOPs ?
+    They are four principles
+        1.Inheritance
+        2.Encapsulation
+        3.Polymorphism
+        4.Abstraction
+
+ * Programming languages that follow OOPs?
+
+ * Is java object oriented programming language or object based programming language ?
+  object based Programming means we cannot inherites object properties ,
+  so java is a object oriented programming
+
+ * Is java pure (100%) object oriented programming language ?
+    No, It is not 100% oops because sometimes it not follows oops principles
+    Ex: - we have primitive datatypes it not follows
+    Ex: - static variable not follows

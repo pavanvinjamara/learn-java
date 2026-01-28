@@ -1,0 +1,23 @@
+Agenda
+ * What is type inference ?
+    Type Inference is a concept in which the compiler infers the type of
+    the variable using the value provided.
+
+    This type inference is restricted to local variables.
+    this feature is introduced in java 10n version.
+ what is local variable ?
+  A variable is created within a block level not class level is called local variable.
+  ex: - a variables created in block | method | constructor
+
+ * How to use var keyword ?
+
+ * var keyword restrictions ?
+    => we cannot use in static variables.
+    => cannot use in class level variables.
+    =>  we cannot use without initialization.
+
+    => var can only be used in the local variables.
+    => var can't be used for only declaration purpose, instead it should be used along with initialisation.
+    => when used with arrays, should not use the brackets.
+    => var can't be used in In-line array initialisation without specifying the datatype.
+    => cannot use in the parameters also.
