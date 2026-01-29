@@ -1,4 +1,4 @@
-package src.OOPS.inheritance;
+package src.OOPS.inheritance.usingClasses;
 
 public class Guest {
     public void read(){

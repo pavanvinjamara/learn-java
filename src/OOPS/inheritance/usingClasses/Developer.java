@@ -1,6 +1,6 @@
-package src.OOPS.inheritance;
+package src.OOPS.inheritance.usingClasses;
 
-public class Developer extends Guest{
+public class Developer extends Guest {
 //    here code is repeating so we have chance of code reusability from Guest class
 //    public void read(){
 //        System.out.println("read");

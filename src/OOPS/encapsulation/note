@@ -1,0 +1,13 @@
+Agenda
+
+	* What is encapsulation ?
+		Encapsulation is a mechanism of wrapping the data (variables) and code acting on the data
+		(methods) together as a single unit.
+					or
+		Encapsulation describes the ability of an object to hide its data and methods from the rest of the world
+
+	* Implementation of encapsulation ?
+
+
+	Note : - Accessing variables and methods directly from class is a bad practise.
+			 getting or setting a variable or method directly is a bad practise

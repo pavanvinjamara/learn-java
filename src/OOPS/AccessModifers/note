@@ -1,0 +1,47 @@
+Agenda
+
+	* What is access modifier ?
+		Access modifiers defines the scope/visibility/restriction level of the members of a class ( variables , constructors and methods ).
+	* List of access modifiers ?
+	    They are four modifiers
+	        1. public
+	        2. private
+	        3. protected
+	        4. default ( no modifier ) ( package-private )
+	* Usage of access modifiers ?
+		public
+			we can be access everywhere
+			within class ,out side the class
+			another class, subclasses, within package, outside the package, within the package
+			outside the project.
+
+			It can give to class, constructor, method, variable
+
+		private
+			we can access only within the class.
+			we cannot access out side class ,  within package, outside the package, within the package
+            outside the project.
+
+            It can give to  constructor, method, variable
+
+        default
+            we can access within the class, outside the class , within the package, within subclass which is in same package.
+            we cannot access out side the package ,outside the package subclasses, within project, outside the project
+			It can give to class, constructor, method, variable
+			
+		protected
+		we can access within the class, outside the class , within the package, within subclass which is in same package.
+        we cannot access out side the package , within project, outside the project
+
+		same as default but we can access outside the package subclasses we can access which is not possible in default
+
+		 It can give to  constructor, method, variable
+
+
+	* Access Levels
+
+
+	Notes: - class never can be a private because
+	if you give private to a class it cannot uses the class within itself or we cannot call the class within in, which is not possible
+	Mainly we create class for use another place, by giving private it cannot be possible
+

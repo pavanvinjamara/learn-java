@@ -1,0 +1,10 @@
+Agenda
+
+	* What is an interface ?
+		An interface is a blueprint of a class.
+
+	* When to use & how to use interfaces ?
+	* How to create and implement an interface ?
+	* Can we provide implementation within interface ?
+	* Different access modifiers and keywords used in interface ?
+	* How the interface changed over the different versions of java ?

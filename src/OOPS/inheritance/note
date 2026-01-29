@@ -1,0 +1,34 @@
+Inheritance - Is is a principle in OOPs for reusability of code.
+code reusability favours readability, manageability & performance
+
+Agenda
+	* What is Inheritance ?
+		Inheritance is a mechanism in which one class acquires all the properties and behaviours of
+		another class with the specific relationship.
+
+		ex: - for relationship Parent - child
+			- parent class to child class (correct)
+		in java we call them like
+			  super class to sub class
+		we cannot inherit sun class properties in super class
+
+
+	* Types of Inheritance ?
+		we have two type inheritance
+			1. multi-level inheritance,
+			2. multiple inheritance.
+
+		In classes we cannot perform multiple inheritance, only by using Interface we can perform this.
+		why we cannot perform in class ?
+		Because when we create object we both same methods but think little bit different operation
+		when we call the method using object java confuses which method we need to use
+
+	* Implementation of inheritance with Interfaces ?
+		 difference between class and interface in class for every method we provide
+		 implementation.
+
+		 implementation is based on curly brackets {}.
+		 if we not giving curly braces before method that is we are not implementing.
+
+
+	* Super keyword ?

@@ -1,6 +1,6 @@
-package src.OOPS.inheritance;
+package src.OOPS.inheritance.usingClasses;
 
-public class Admin extends Developer{
+public class Admin extends Developer {
 //    To access read and write functionality/methods
 //    we inherit from the developer class
 //    To inherit we use keyword extends and super class name
