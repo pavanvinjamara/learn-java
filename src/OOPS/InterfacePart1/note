@@ -2,9 +2,55 @@ Agenda
 
 	* What is an interface ?
 		An interface is a blueprint of a class.
+		same like business document || it is like a guideline
+
+		In interface what need to do will be there but not how to do
+		ex:- add method will be there but not the addition logic
 
 	* When to use & how to use interfaces ?
+		when means
+			To create a business document. we use
+
 	* How to create and implement an interface ?
 	* Can we provide implementation within interface ?
+		Yes, we can do  After Java 1.8
 	* Different access modifiers and keywords used in interface ?
+		public, private, default  -> access modifiers
+		static -> keyword
 	* How the interface changed over the different versions of java ?
+
+
+Note :- class is a implementer for the interface.
+		Just Defined or in implemented methods are known as abstract methods.
+
+		Until Java 1.7 we should provide only what to do in interface not how to do
+
+		In Java 1.8 They provide both what to do and how to do
+			because Java introduced some features like java streams and in collections or collection framework
+			they want to introduce some new feature and old features should not disturbed so they added they feature.
+
+Example :- In our DairyFarm Interface i want to introduce new rule (method)
+			It makes a disturbance in business of Amul and Nadhan
+			To overcome this they introduces make implement also.
+			you can do using default or static method
+			same thing goes with collection framework like List, ArrayList etc.
+
+	Note :- In interface if you don't give any access modifier it consider as a public
+			To make make method default you need to use keyword default
+
+
+	Note:- 1. @Override key is used that shows implementing the method which is implement in interface.
+		   2.
+
+	Note:- default method can be override by  implement class but not static
+			static method we can directly implement in implement class || subclass
+
+			we can call static Interface method directly using Interface name
+			like DairyFarm.security
+
+			In DairyFarm you cannot call non-satic method in static method due to memory allocation reason.
+
+	Note:-  In Java 1.9 they introduce the private method also to increase the code reusability.
+			we are creating default methods to make some date private we start using private access modifier
+
+			if we wan to call private methods in static, they introduce static to the private so we can call in static method also

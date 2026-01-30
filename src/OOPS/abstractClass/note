@@ -1,0 +1,40 @@
+Agenda
+  * What is an abstract class ?
+	  An abstract class is a class which can obtain the abstract methods, it is defined
+	  wth the key word abstract.
+
+		Before Java 1.8 means Java 1.7
+
+		we cannot implement methods in interface to deal with they made abstract class
+
+		In subclass there is no need to implement all the abstract methods ina interface
+		For those abstract methods we handle in abstract class
+
+		Ex:-    we have an interface with 10 abstract methods
+				I have a subclass name Class1 can need only 5 methods remaining % methods it can't or on need
+				To deal with it we create a 3rd party which means abstract class.
+
+				This abstract key word makes java complier not through error if any abstract method is not implemented
+
+
+
+  * When to use & how to use/create an abstract class ?
+
+  * Can we create an instance of abstract classes ?
+     No, we cannot create instance of abstract classes.
+      we cannot create object using abstract class
+
+  * Can we have non-abstract methods inside abstract class ?
+	Yes , we can
+
+  * Can we extend multiple abstract classes into a single class ?
+    No, multiple inhertance cannot be possible in class
+
+  * Can we implement the abstract class like an interface ?
+	No, we cannot use keyword like interface in abstract class.
+
+
+
+
+ Note:-  Abstract is a Non Accessible Modifier | Non Access Modifier
+         Non Access Modifier means which not define any scope |filled etc

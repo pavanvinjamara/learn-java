@@ -1,0 +1,17 @@
+Agenda
+
+	* What is abstraction ?
+		Abstraction is a process of hiding the implementation details
+		and showing only functionality to the user.
+
+		Mainly we use for security purpose.
+		Make it  simple and easy.
+
+	* How can we achieve the abstraction in java ?
+
+	* Implementation of abstraction ?
+
+
+	Note :- 100% of abstraction can be happen in Java 1.7 using interface.
+			After Java 1.7 we can accrue 100% of abstraction may be or may not be possible using interface depends on user.
+			In abstract class not be accrue 100% of abstraction.

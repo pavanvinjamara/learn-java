@@ -1,0 +1,34 @@
+Agenda
+
+	* What is polymorphism ?
+		poly     + morphism
+		multiple + forms
+
+		Polymorphism is the ability of an object to take on many forms.
+
+	* Different types of polymorphism in java ?
+		They are two type
+		1. Compile-time polymorphism
+			  * Compile-time polymorphism is a type of polymorphism which can be achieved at
+				java compilation time.
+			  * It is also referred as static polymorphism or early binding.
+			  * Compile time polymorphism can be achieved by using METHOD OVERLOADING
+			    concept in java
+
+		2. Runtime polymorphism
+			   * Runtime polymorphism is a type of polymorphism which can be achieved at java
+			     runtime or execution time.
+			   * It is also referred as DYNAMIC POLYMORPHISM or DYNAMIC METHOD DISPATCH.
+			   * Runtime polymorphism can be achieved using by METHOD OVERRIDING concept in java.
+
+	* Method overloading ?
+
+
+	* Method overriding ?
+
+	* Is override annotation mandatory to use in java ?
+		It is not mandatory, while performing overriding code any mistakes we do
+		it shows it compares with parent and tells that what mistake we done method siginature it observes.
+
+
+ Note:-  This method mainly we observe in java which uses method overloading system.out.print
