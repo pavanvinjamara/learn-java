@@ -1,0 +1,20 @@
+Agenda
+
+	* What is an exception ?
+
+		when we execute the program due to some problems program execution stop is called exception.
+		when a event triggered and stops the program execution is called exception.
+
+		EXCEPTION is an event that occurs during the execution of a program that distrups the normal flow
+		of instructions.
+
+	* What is exception handling ?
+	* Why do we need exception handling ?
+	* Different types of exceptions ?
+		They are two types of exception
+		* Checked Exception ( compile-time exception)
+		* Unchecked Exception ( runtime exception )
+
+	* How to use try, catch and finally blocks ?
+	* How to use throw and throws keywords ?
+	* Hierarchy of exceptions in java ?

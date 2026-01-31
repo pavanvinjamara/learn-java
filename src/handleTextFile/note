@@ -1,0 +1,18 @@
+Agenda
+
+	* What is a text file ?
+	* Create a text file in java ?
+	* Delete a text file in java ?
+	* Read text from a text file in java ?
+	* Write text into a text file in java ?
+	* Perform the read and write operations in multiple ways ?
+
+
+	Note :- Different ways of reading the data from text files
+		* FileInputStream
+		* Scanner
+		* FileReader
+		* BufferedReader
+
+	note: - If we are using anyone of this we must close after completing of our task.
+			For security purpose, if we not close this chance of memory leaks.
