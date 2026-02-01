@@ -1,8 +1,6 @@
 package src.handleTextFile;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
+import java.io.*;
 import java.util.Scanner;
 
 public class Program1 {
@@ -41,6 +39,46 @@ public class Program1 {
 
 //    ----------------- Scanner Method -------------------------------
         Scanner sc = new Scanner(file);
+//        we can do like also   Scanner sc = new Scanner(new FileInputStream(file));
+//        if we do above line we need to close file input stream also.
+//    for word, we use hasNext and next for sentence or line we use hasNextLine and nextLine
+        while(sc.hasNext()){
+            System.out.println(sc.next());
+        }
+
+        sc.close();
+
+//  -------------  FileReader  -----------------------
+        FileReader fr = new FileReader(file);
+//        This works same as File Input Streams
+        int asccii2;
+        while((asccii2 = fr.read()) != -1){
+            System.out.print((char)fr.read());
+        }
+
+        fr.close();
+
+//        ---------- BufferReader ----------------------
+//         we need pass FileReader in the constructor Or InputStreamReader
+        FileReader fr2 = new FileReader(file);
+        BufferedReader br = new BufferedReader(fr2);
+//        It can read character by character || line by line
+
+//        br.read() gives char by char
+        int asccii3;
+        while((asccii3 = br.read()) != -1){
+            System.out.print((char)asccii3);
+        }
+//        System.out.println(br.readLine() + "--");
+//        To read line by line br.readLine()
+//        In this it read line by line if it reaches end it gives null value.
+//            String line = new String();
+//            while((line = br.readLine()) != null){
+//                System.out.println(line + "---");
+//            }
+//        close both file reader and buffer reader
+        fr2.close();
+        br.close();
 
     }
 }
