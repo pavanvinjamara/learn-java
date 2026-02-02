@@ -1,0 +1,50 @@
+Agenda
+
+	* What is a POJO class ?
+		POJO means Plain Old Java Object.
+		It is a simple java object, which is not bounded by any special restriction
+
+	* Rules for a class to be called as a POJO class ?
+			(*) MEANS COMPULSORY RULES
+
+	  (*) -> It must be public.(CLASS)
+	      -> It is recommended to make the properties (instance variables) as
+	         private for improved security.
+	      -> It can have Getters & Setters in order to access the properties.
+	  (*) -> It shouldn't implement any interfaces.
+	  (*) -> It shouldn't extend any classes.
+	  (*) -> It shouldn't have any annotations specified.( @Override annotation )
+
+	* Example for POJO class ?
+
+	* What is a Java Bean Class ?
+		Java Bean class is an extended version of a POJO class.
+		It is also referred as a serializable POJO class.
+
+	* Rules for a clas to be called as a Java Bean ?
+		ALL ARE COMPULSORY
+
+    		-> It should implement serializable interface.
+    		-> It should have a no-args constructor
+    		-> All the properties (instance variables ) should be private.
+    		-> It should have Getters & Setters (public) in order to access the properties.
+
+
+	* Example of Java Bean class ?
+
+	* Differences between POJO Class & Java Bean ?
+
+		Normal cases we use POJO class
+
+		For Java Bean Class real world example
+		we are implementing the serializable interface
+		we use that interface for communication between application layer(backend code) and database layer
+		To communication we need to send java object through stream to database
+		for that we use  serializable interface and get the data from database we deserializable.
+
+		for network reason we need to use Java Bean class or else POJO we can use
+
+	Note:- Why we need to use POJO class
+			Suppose we are creating a multiple Employee Data
+			To create that data and maintain that data we use POJO class.
+			By creating this we can use this class as a variable to create employees.

@@ -1,0 +1,24 @@
+Agenda
+
+	* Try with resources
+		When we use resources reader writer etc when need to close them after use using close method.
+		To make it automatic means java itself close the resource, we use try with resources.
+		Using try block we can perform try(<---resource--->){
+		}catch(Exception ex){}
+
+		Only the classes which can be implements AutoClosable Interface that class object we can pass in try block.
+		After using also we can use close method also but no needed , because internal it will call this method.
+
+	* Multiple catch blocks
+	* Multiple exceptions in a single catch block ?
+	* When will the finally block not be executed ?
+		If we use System.exit(0);
+        It destroys the thread because od that below this line no code will be executed.
+
+	* Throw custom(user defined) exceptions using throw keyword ?
+
+
+	Note :- We have multiple exceptions to handle you use throws keyword and exception names with comma separated.
+			To Keep it simple and handle you can use Exception || Throwable
+			so, it can handle multiple exceptions because they are parent classes.
+

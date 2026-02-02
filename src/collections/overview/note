@@ -1,0 +1,11 @@
+Agenda
+
+	* What is collections ?
+		Collections is a framework provided by java.
+		This framework provides many interfaces and their implemented classes
+		in order to store group of objects (elements) in a single entity.
+
+	* Interfaces provided by collections framework ?
+	* Classes provided by collections framework ?
+	* Hierarchy of collection interface ?
+	* Hierarchy of map interface ?
