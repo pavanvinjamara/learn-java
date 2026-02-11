@@ -6,6 +6,31 @@ Agenda
 		in order to store group of objects (elements) in a single entity.
 
 	* Interfaces provided by collections framework ?
+		Collections framework contains two type of interface
+			-> Collection interface
+			-> Map interface
+
+			In Collection Interface we have three type
+				-> List interface
+				-> Set interface
+				-> Queue interface
+
 	* Classes provided by collections framework ?
+		Classes implemented by above interfaces.
+		-----List-----                -----Set Interface---
+		-> ArrayList                   -> HashSet
+		-> LinkedList                  -> LinkedHashSet
+		-> Vector                      -> TreeSet
+		-> Stack
+
+		----Queue Interface---         ---- Map interface-----
+		-> ArrayQueue                  -> HashTable
+		-> PriorityQueue               -> HashMap
+									   -> LinkedHashMap
+									   -> TreeMap
+		----- class -----
+		-> collections    - It is common class used for perform common classes like sorting, searching etc.
+
 	* Hierarchy of collection interface ?
+
 	* Hierarchy of map interface ?
