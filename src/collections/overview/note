@@ -17,7 +17,7 @@ Agenda
 
 	* Classes provided by collections framework ?
 		Classes implemented by above interfaces.
-		-----List-----                -----Set Interface---
+		-----List Interface -----                -----Set Interface---
 		-> ArrayList                   -> HashSet
 		-> LinkedList                  -> LinkedHashSet
 		-> Vector                      -> TreeSet
@@ -28,7 +28,7 @@ Agenda
 		-> PriorityQueue               -> HashMap
 									   -> LinkedHashMap
 									   -> TreeMap
-		----- class -----
+		----- Class -----
 		-> collections    - It is common class used for perform common classes like sorting, searching etc.
 
 	* Hierarchy of collection interface ?

@@ -1,0 +1,48 @@
+In general stack is like jar or vertical
+we need to imagine vertical it becomes easy
+index 0 is starts from bottom.
+
+Stack introduce in java 1.0, It is a legacy class.
+
+Note:- Stack class extends Vector class (check image)
+ Stack is a class in java which implements the list interface and extends the vector class
+ and also represents the LIFO principle.
+
+ Special Methods available in stack
+    * push   - adds element at last
+    * pop    - remove element from first
+    * peek   - shows the last added element
+    * search - It search from top and return where it finds it that number it gives
+
+
+    -> What is the default capacity ?
+        10 is the default size
+    -> What is the initial capacity ?
+        10
+    -> Does it allow duplicate elements ?
+        Yes
+    -> Does it allow null values ?
+        Yes
+    -> Does it maintain the insertion order ?
+        True
+    -> Does it maintain the sorted order ?
+        False
+    -> Does it offer the random access of elements ?
+        Yes, but we should not use that methods
+    -> Is it synchronised ?
+        Yes, By using collections class we can make it synchronised.
+    -> What is it good at ?
+        good for last in first out ,
+        undo and redo application,
+        browser forward and backward,
+        related to recursion,
+
+
+
+Major Operations
+	-> Creation of List
+	-> Addition of elements into the list
+	-> Retrieval of elements from the list
+	-> Deletion of elements in the list
+	-> Verification of elements in the list
+	-> Updating of elements in the list

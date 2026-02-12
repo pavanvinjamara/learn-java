@@ -1,0 +1,77 @@
+Agenda
+
+	* What is a List ?
+	* Hierarchy of List Interface in java ?
+	* Implementation of ArrayList and Vector ?
+	* How to use ArrayList ?
+	* How to use Vector ?
+	* Important points to remember
+	------Vectors-----
+		-> What is the default capacity ?
+		    10 is the default size
+		-> What is the initial capacity ?
+			initial is 10 if we give any number in constructor or depends on insertion array length it make array length double.
+		-> Does it allow duplicate elements ?
+			Yes
+		-> Does it allow null values ?
+			Yes
+		-> Does it maintain the insertion order ?
+			True
+		-> Does it maintain the sorted order ?
+			False
+		-> Does it offer the random access of elements ?
+			Yes
+		-> Is it synchronised ?
+			Yes , It encourage single thread only does at a time single work
+		-> What is it good at ?
+			In Multi threading or data is increasing in exponentially
+			To store data, retrieve the data
+			In multi threading also it will handle one after other task
+
+	------ArrayList-----
+    		-> What is the default capacity ?
+    		    0 is the default size
+    		-> What is the initial capacity ?
+    			10
+    		-> Does it allow duplicate elements ?
+    			Yes
+    		-> Does it allow null values ?
+    			Yes
+    		-> Does it maintain the insertion order ?
+    			True
+    		-> Does it maintain the sorted order ?
+    			False
+    		-> Does it offer the random access of elements ?
+    			Yes
+    		-> Is it synchronised ?
+    			No , By using collections class we can make it synchronised.
+    		-> What is it good at ?
+    			data is not increasing in exponentially ,
+    			To store data, retrieve the data
+    			In multi threading also it will handle one after other task
+
+
+Note:- ArrayList class & Vector class both implements List Interface (check image)
+
+Note :- Arraylist increases length with 50% and vector increases length with 100%
+		if not consider decimal means if our array length is 15. 50 percent of length is 7.5,
+		In this case it consider 7 only.
+
+	 :- In multi threading Arraylist is fast and vector is slow
+	    because vector handle one after other and arraylist handle all at a time.
+
+	    Memory allocation difference vector by default it create
+	    capacity 10 but arraylist creates after adding element.
+
+		Vector is legacy class and arraylist is collections class.
+
+
+Major Operations
+	-> Creation of List
+	-> Addition of elements into the list
+	-> Retrieval of elements from the list
+	-> Deletion of elements in the list
+	-> Verification of elements in the list
+	-> Updating of elements in the list
+
+
