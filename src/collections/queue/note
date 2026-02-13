@@ -1,0 +1,19 @@
+Agenda
+
+	* What is a Queue?
+		Queue is a class in java which extends the collection interface
+        and also represents the FIFO principle.
+        FIFO - First In First Out
+
+	* Hierarchy of Queue Interface in Java ?
+	* How to use Queue ?
+	* Important points to remember ?
+
+
+	Major Operations
+    	-> Creation of Queue
+    	-> Addition of elements into the Queue
+    	-> Retrieval of elements from the Queue
+    	-> Deletion of elements in the Queue
+    	-> Verification of elements in the Queue
+

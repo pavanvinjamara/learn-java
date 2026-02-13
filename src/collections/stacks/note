@@ -40,9 +40,9 @@ Note:- Stack class extends Vector class (check image)
 
 
 Major Operations
-	-> Creation of List
-	-> Addition of elements into the list
-	-> Retrieval of elements from the list
-	-> Deletion of elements in the list
-	-> Verification of elements in the list
-	-> Updating of elements in the list
+	-> Creation of Stack
+	-> Addition of elements into the stack
+	-> Retrieval of elements from the stack
+	-> Deletion of elements in the stack
+	-> Verification of elements in the stack
+	-> Updating of elements in the stack

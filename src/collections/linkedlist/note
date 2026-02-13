@@ -1,0 +1,48 @@
+Agenda
+	-> LinkedList implements two interfaces which are List Interface and Deque Interface.
+	-> LinkedList is a combination of multiple node object
+	-> We create node object using node class and it consists of prev, data and next properties.
+	-> prev and next store address of another node object or null.
+
+	-> When we created a linked list it's size is 0, It's firstNode is null and
+	   It's lastNode is null.
+	-> When we adding element above three will update. and firstNode and lastNode contains address of that node.
+	-> LinkedList cannot be created with pre-defined size.
+
+	* Hierarchy of List Interface in java ?
+	* What is a LinkedList ?
+	* Implementation of LinkedList ?
+	* How to use LinkedList ?
+	* Important points to remember ?
+
+	-> What is the default capacity ?
+        0 is the default size
+    -> What is the initial capacity ?
+        0
+    -> Does it allow duplicate elements ?
+        Yes
+    -> Does it allow null values ?
+        Yes
+    -> Does it maintain the insertion order ?
+        True
+    -> Does it maintain the sorted order ?
+        False
+    -> Does it offer the random access of elements ?
+        Yes
+    -> Is it synchronised ?
+        No , By using collections class we can make it synchronised.
+    -> What is it good at ?
+        data is not increasing in exponentially ,
+        Manipulating data , inserting data, deleting data
+        In multi threading also it will handle one after other task
+
+
+
+
+Major Operations
+	-> Creation of List
+	-> Addition of elements into the list
+	-> Retrieval of elements from the list
+	-> Deletion of elements in the list
+	-> Verification of elements in the list
+	-> Updating of elements in the list

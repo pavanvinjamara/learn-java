@@ -1,0 +1,20 @@
+Agenda
+
+ * What is Map ?
+    Map is an interface which is provided by collections framework.
+    It created to get the data using reference not using index. for this mechanism they created map.
+
+ * Hierarchy of Map Interface in Java ?
+ * Major operations performed on Map object ?
+
+ * Difference between entrySet and keySet ?
+
+ Major Operations
+ 	-> Creation of a map
+ 	-> Addition of elements into the map
+ 	-> Retrieval of keys from the map
+ 	-> Retrieval of values from the map
+ 	-> Deletion of elements from the map
+ 	-> Verification of keys in the map
+ 	-> Verification of values in the map
+ 	-> Updating of elements in the map
