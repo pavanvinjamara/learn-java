@@ -9,6 +9,48 @@ Agenda
 	* How to use Queue ?
 	* Important points to remember ?
 
+	---------- Priority Queue ----------
+	    -> What is the default capacity ?
+            11
+        -> What is the initial capacity ?
+            11
+        -> Does it allow duplicate elements ?
+            Yes
+        -> Does it allow null values ?
+            No
+        -> Does it maintain the insertion order ?
+            No
+        -> Does it maintain the sorted order ?
+            No
+        -> Does it offer the random access of elements ?
+            No
+        -> Is it synchronised ?
+            No
+        -> What is it good at ?
+            good for first in first out ,
+
+        ----------  ArrayDeque ----------
+            -> What is the default capacity ?
+                17
+            -> What is the initial capacity ?
+                17
+            -> Does it allow duplicate elements ?
+                Yes
+            -> Does it allow null values ?
+                No
+            -> Does it maintain the insertion order ?
+                No
+            -> Does it maintain the sorted order ?
+                No
+            -> Does it offer the random access of elements ?
+                No
+            -> Is it synchronised ?
+                No
+            -> What is it good at ?
+                good for first in first out ,
+
+
+
 
 	Major Operations
     	-> Creation of Queue
@@ -16,4 +58,9 @@ Agenda
     	-> Retrieval of elements from the Queue
     	-> Deletion of elements in the Queue
     	-> Verification of elements in the Queue
+
+
+    note :- Priority queue is not maintain sorted order internally.
+            but head is the highest priority element.
+            In Integers we have the low number have the highest priority.
 

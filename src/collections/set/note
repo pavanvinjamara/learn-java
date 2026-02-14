@@ -1,0 +1,20 @@
+Agenda
+
+	* What is Set ?
+		Set Interface extends the Collection Interface
+
+		Set is a data  structure which store the only unique elements in the data.
+		Does not allows duplicate data.
+
+
+	* Hierarchy of Set Interface in Java ?
+	* Major operations performed on Set object ?
+	* Important points to remember ?
+
+
+Major Operations
+    -> Creation of Set
+    -> Addition of elements into the Set
+    -> Retrieval of elements from the Set
+    -> Deletion of elements in the Set
+    -> Verification of elements in the Set
