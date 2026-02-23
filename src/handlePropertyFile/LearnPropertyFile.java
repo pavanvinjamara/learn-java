@@ -53,8 +53,16 @@ public class LearnPropertyFile {
             }
             Set<Map.Entry<Object, Object>> data = prop.entrySet();
             for(Map.Entry<Object, Object> entry:data){
-//                System.out.println(entry.getKey() +" > "+ getV );
+                System.out.println(entry.getKey() +" > "+ entry.getValue() );
             }
+
+//            Update the property
+//         first load the old properties using prop.load and using
+//        setProperty we can update
+
+//        Remove property
+        prop.remove("username");
+
 
     }
 }
