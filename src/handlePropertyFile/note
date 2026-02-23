@@ -7,3 +7,8 @@ Agenda
 	* Write property value into a properties file ?
 	* Update property value in a properties file ?
 	* Remove property from properties file ?
+
+
+	-> note:- To Handle we should not change in java we keep our data in separate file
+			that is property file
+			Always keep data and business logic separate
